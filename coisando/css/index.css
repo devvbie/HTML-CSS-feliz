@@ -1,0 +1,10 @@
+/* responsabilidades do css: cuida do visual, animaçao */
+
+header{
+    background-color: #7C5E99; /* qual a diferenca de apenas backgroun? */
+}
+
+a {
+    color: white;
+    font-size: 20px;
+}
