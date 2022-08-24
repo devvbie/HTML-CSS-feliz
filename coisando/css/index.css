@@ -1,5 +1,5 @@
 /* responsabilidades do css: cuida do visual, animaçao */
-
+/* remove css do navegador */
 header{
     background-color: #7C5E99; /* qual a diferenca de apenas backgroun? */
 }
@@ -7,4 +7,18 @@ header{
 a {
     color: white;
     font-size: 20px;
+    font-family: "Fira Code", Arial, sans-serif; /*sans-serif, monospace etc */
+    font-weight: 500;
+    text-decoration: none; /* mdn text-decoration: https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration */
+    margin-right: 30px;
+}
+
+#button {
+    display: inline-block; /*o que é?*/
+    background-color: #F25A70;
+    height: 60px; /* como funciona height e line-height? */
+    line-height: 60px; /* tecnica para uma linha: altura mesmo tamanho da linha */
+    padding-left: 20px; /* diferença entre padding e margin? */
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000000;
 }
