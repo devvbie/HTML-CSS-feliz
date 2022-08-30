@@ -5,7 +5,9 @@ header{
 }
 
 a {
-    color: white;
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
     font-size: 20px;
     font-family: "Fira Code", Arial, sans-serif; /*sans-serif, monospace etc */
     font-weight: 500;
@@ -13,12 +15,54 @@ a {
     margin-right: 30px;
 }
 
-#button {
-    display: inline-block; /*o que é?*/
+span{
     background-color: #F25A70;
-    height: 60px; /* como funciona height e line-height? */
-    line-height: 60px; /* tecnica para uma linha: altura mesmo tamanho da linha */
-    padding-left: 20px; /* diferença entre padding e margin? */
-    padding-right: 20px;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    text-align: right; /*right, left, justify, center*/
+}
+
+#button {
+    display: inline-block; /*o que é? algumas tags tem padrao display inline, outras block...*/
+    background-color: #F25A70;
+    /*padding-top: 18px;     height: 60px; como funciona height e line-height? 
+    padding-bottom: 18px;     line-height: 60px; tecnica para uma linha: altura mesmo tamanho da linha 
+    padding-left: 20px; diferença entre padding e margin? padding: cresce conforme o conteudo, não é algo fixo
+    padding-right: 20px;*/
+    padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000;
+}
+
+
+/*display inline: permite que elementos inline fiquem um do lado do outro e max pra esquerda possivel, mesma linha. 'Não permite' usar duas propriedades: width e height. Cada caixa ganha comportamento de palavra*/
+/* o que define o tamanho da caixa no display inline é o conteudo*/
+/*text-align: center; -> pode mudar o efeito do texto e não da caixa, para mudar da caixa deveriamos colocar no pai (nav) */
+/*display block: em vez de deixar na mesma linha, ocupa a linha toda; pode definir widhth e height; o que define o width é a limitação do pai e sempre ocupa toda a largura possível; o que define a altura é o conteudo*/ 
+/* displat inline-block: mesma linha e permite definição de width e height; herda comportamendo de palavra; e por padrão herda o tamanho por conteúdo quando nao setado width e height*/
+/* usando o justify -> (no modo antigo) cria div inline-block com width 100% 
+/* margin-left: auto em display block preenche toda a esquerda e deixa o elemento no máx direita possivel */
+/* margin-left:auto + margin-right: auto -> centraliza */
+/* ::after -> https://www.youtube.com/watch?v=Yj9-N9BEVeM (problema do justify)
+
+/*--------------------------------------------------------------------------------------------*/
+
+/*diferença paddin e margin
+padding: 10px; ou padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;
+padding = interno e margin = externo
+padding faz o elemento crescer, ocupar mais espaço */
+/*--------------------------------------------------------------------------------------------*/
+
+/* forma resumida e especifica
+padding: 10px; OU padding-top: 10px; padding-bottom: 10px; padding-right: 10px; padding-left: 10px;
+background: ou background-color:; background-image:; background-repeat:; etc
+ou padding: 20px 18px 40px;
+ou padding: 20px 18px;
+*/
+
+body {
+    background: pink;
 }
