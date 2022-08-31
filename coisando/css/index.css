@@ -1,7 +1,11 @@
 /* responsabilidades do css: cuida do visual, animaçao */
 /* remove css do navegador */
 header{
+    display: flex;
+    justify-content: space-between;
     background-color: #7C5E99; /* qual a diferenca de apenas backgroun? */
+    border-bottom: 10px solid #000;
+    padding: 10px 20px;
 }
 
 a {
@@ -15,7 +19,8 @@ a {
     margin-right: 30px;
 }
 
-span{
+a:before { /* pseudo-elemento :: e : pseudo-classe*/
+    content: ""; /* obrigatorio */
     background-color: #F25A70;
     width: 10px;
     height: 10px;
@@ -35,6 +40,7 @@ nav {
     padding-right: 20px;*/
     padding: 18px 20px;
     box-shadow: 5px 5px 0px #000000;
+    margin-right: 0;
 }
 
 
