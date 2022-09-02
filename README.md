@@ -5,3 +5,4 @@ Tecnologias:<br>
 - ![HTML\CSS](https://developer.mozilla.org/pt-BR/docs/Web/HTML)<br>
 - ![Figma](https://www.figma.com)<br>
 - ![Validator HTML](https://validator.w3.org/) <br>
+- ![Redimensionar imagem](https://www.iloveimg.com/pt/redimensionar-imagem#resize-options,pixels)
