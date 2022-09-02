@@ -7,3 +7,4 @@
 | descrever | shift + seta e ctrl + f2 |
 |--|--|
 
+pergunta: header é só no topo da pagina? pode ser do lado?
