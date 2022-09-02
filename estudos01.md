@@ -2,9 +2,20 @@
 - Link úttil: https://developer.mozilla.org/pt-BR/docs/Web/HTML <br>
 - Atalhos úteis: 
  
+| descrição | atalho |
+|--|--|
 | seleciona o texto | shift + seta |
-|--|--|
+| descrever | shift + seta e ctrl + D |
 | descrever | shift + seta e ctrl + f2 |
-|--|--|
+| descrever | ctrl + R |
+| descrever | F5 |
+| descrever | ctrl + shift + R |
+| descrever | ctrl + X |
+| descrever | ctrl + X |
+| descrever | ctrl + Z |
+| descrever | ESC |
+| descrever | shift + end |
+| descrever | ctrl + B |
+
 
 pergunta: header é só no topo da pagina? pode ser do lado?
