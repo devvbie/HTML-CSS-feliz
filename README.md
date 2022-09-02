@@ -7,3 +7,4 @@ Tecnologias e ferramentas úteis:<br>
 - ![Validator HTML](https://validator.w3.org/) <br>
 - ![Redimensionar imagem](https://www.iloveimg.com/pt/redimensionar-imagem#resize-options,pixels)
 - ![Fontes](https://fonts.google.com/)
+- ![Identificador de cores](https://imagecolorpicker.com/pt-pt)
