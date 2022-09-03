@@ -8,3 +8,4 @@ Tecnologias e ferramentas úteis:<br>
 - ![Redimensionar imagem](https://www.iloveimg.com/pt/redimensionar-imagem#resize-options,pixels)
 - ![Fontes](https://fonts.google.com/)
 - ![Identificador de cores](https://imagecolorpicker.com/pt-pt)
+- ![Cores](https://coolors.co/)
