@@ -1,4 +1,5 @@
 - Link útil: https://www.youtube.com/watch?v=AtsVK_In5bU <br>
+- https://www.alura.com.br/artigos/como-colocar-projeto-no-ar-com-github-pages?gclid=EAIaIQobChMInNG9j4L5-QIVSuZcCh2caAtjEAAYBCAAEgJO4_D_BwE <br>
 - Link úttil: https://developer.mozilla.org/pt-BR/docs/Web/HTML <br>
 - Atalhos úteis: 
  
