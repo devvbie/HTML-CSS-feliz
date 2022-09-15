@@ -13,5 +13,11 @@
 - git config --global
 - git commit --amend --reset-author
 - git log
+- vim index.html
+  - tecla I
+  - ESC 
+  - :q!
+  - :qa!
+  - :x
   
-  duvida: se guardo os commits só no git e depois commito em outro dia, aparecem os quadradinhos verdes ali no github? heheh
+duvida: se guardo os commits só no git e depois commito em outro dia, aparecem os quadradinhos verdes ali no github? heheh
