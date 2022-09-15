@@ -1,0 +1,10 @@
+- cd 'prefixo do nome' + tab
+- ls
+- git init
+- ls -la
+- clear
+- git status
+- git add
+- git commit
+- git reset
+- git fetch
